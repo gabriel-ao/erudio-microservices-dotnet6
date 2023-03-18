@@ -27,7 +27,7 @@ namespace RestWithASPNETUdemy.Services.Implementations
             return persons;
         }
 
-        public Person FindByID(Person person)
+        public Person FindByID(long id)
         {
             return new Person { Id = 1, FirstName = "Gab", LastName = "Oliveira", Address = "Hortolândia - São Paulo - Brasil", Gender = "Male" };
         }
