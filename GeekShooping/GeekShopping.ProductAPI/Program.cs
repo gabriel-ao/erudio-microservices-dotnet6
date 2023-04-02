@@ -1,3 +1,6 @@
+using GeekShopping.ProductAPI.Model.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,20 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+#region
+
+ConfigurationManager configuration = builder.Configuration;
+
+var connection = configuration["MySQLConnection:MySQLConnectionString"];
+
+builder.Services.AddDbContext<MySQLContext>(options => options.
+        UseMySql(connection, 
+            new MySqlServerVersion(
+                new Version(8, 0, 5))));  // confirmar qual versão do MYSQL
+
+#endregion
+
 
 var app = builder.Build();
 
@@ -17,6 +34,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
+
+
 
 app.MapControllers();
 
