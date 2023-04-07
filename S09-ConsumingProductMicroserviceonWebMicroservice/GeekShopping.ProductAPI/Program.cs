@@ -20,7 +20,7 @@ builder.Services.AddSwaggerGen(c =>
     
     );
 
-#region
+#region CONFIGURAÇÂO DO CURSO DE ASPNET
 
 // conexão ao banco de dados
 ConfigurationManager configuration = builder.Configuration;
