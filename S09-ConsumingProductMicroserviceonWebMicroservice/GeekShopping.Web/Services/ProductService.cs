@@ -7,7 +7,7 @@ namespace GeekShopping.Web.Services
     public class ProductService : IProductService
     {
         private readonly HttpClient _client;
-        public const string BasePath = "api/v1/product";
+        public const string BasePath = "api/v1/Product";
 
         public ProductService(HttpClient client)
         {
@@ -16,6 +16,7 @@ namespace GeekShopping.Web.Services
 
         public async Task<IEnumerable<ProductModel>> FindAllProducts()
         {
+            //http://localhost:5081/api/v1/Product
             var response = await _client.GetAsync(BasePath);
 
             return await response.ReadContentsAs<List<ProductModel>>();
