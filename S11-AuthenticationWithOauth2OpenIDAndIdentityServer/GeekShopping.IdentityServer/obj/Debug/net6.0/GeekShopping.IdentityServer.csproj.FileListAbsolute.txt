@@ -1,0 +1,8 @@
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.csproj.AssemblyReference.cache
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.AssemblyInfoInputs.cache
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.AssemblyInfo.cs
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.csproj.CoreCompileInputs.cache
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.MvcApplicationPartsAssemblyInfo.cache
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.RazorAssemblyInfo.cache
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.RazorAssemblyInfo.cs
