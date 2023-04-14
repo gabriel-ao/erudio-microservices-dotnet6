@@ -16,9 +16,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "GeekShopping" });
-}
-    
-    );
+});
 
 #region CONFIGURAÇÂO DO CURSO DE ASPNET
 
@@ -28,7 +26,7 @@ ConfigurationManager configuration = builder.Configuration;
 var connection = configuration["MySQLConnection:MySQLConnectionString"];
 
 builder.Services.AddDbContext<MySQLContext>(options => options.
-        UseMySql(connection, 
+        UseMySql(connection,
             new MySqlServerVersion(
                 new Version(8, 0, 5))));  // confirmar qual versão do MYSQL
 
