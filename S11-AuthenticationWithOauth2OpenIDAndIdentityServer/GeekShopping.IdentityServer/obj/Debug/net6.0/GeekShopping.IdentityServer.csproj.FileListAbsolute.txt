@@ -297,6 +297,7 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOaut
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Duende.IdentityServer.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Duende.IdentityServer.AspNetIdentity.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Duende.IdentityServer.Storage.dll
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Humanizer.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\IdentityModel.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -309,6 +310,7 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOaut
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
@@ -370,5 +372,3 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOaut
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.pdb
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.genruntimeconfig.cache
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\ref\GeekShopping.IdentityServer.dll
-R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Humanizer.dll
-R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

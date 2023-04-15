@@ -1,4 +1,5 @@
 using GeekShopping.IdentityServer.Configuration;
+using GeekShopping.IdentityServer.Initializer;
 using GeekShopping.IdentityServer.Model;
 using GeekShopping.IdentityServer.Model.Context;
 using Microsoft.AspNetCore.Identity;
@@ -38,6 +39,7 @@ builder.Services.AddIdentityServer(options =>
     .AddInMemoryClients(IdentityConfiguration.Clients)
     .AddAspNetIdentity<ApplicationUser>();
 
+builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 
 #endregion
 
@@ -67,6 +69,14 @@ app.UseIdentityServer();
 #endregion
 
 app.UseAuthorization();
+
+#region CONFIGURAÇÂO DO CURSO DE ASPNET
+
+var initializer = app.Services.CreateScope().ServiceProvider.GetRequiredService<IDbInitializer>();
+
+initializer.Initialize();
+
+#endregion
 
 app.MapControllerRoute(
     name: "default",
