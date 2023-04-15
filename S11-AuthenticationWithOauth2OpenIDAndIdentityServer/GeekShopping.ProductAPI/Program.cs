@@ -3,6 +3,7 @@ using GeekShopping.ProductAPI.Config;
 using GeekShopping.ProductAPI.Model.Context;
 using GeekShopping.ProductAPI.Repository;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 
@@ -11,6 +12,31 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+#region CONFIGURAÇÂO DO CURSO DE ASPNET
+
+builder.Services.AddAuthentication("Bearer").AddJwtBearer(options =>
+{
+    options.Authority = "https://localhost:4435";
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateAudience = false,
+    };
+});
+//TODO - PASSAR ACIMA PARA O LAUNCH PRA TREINO
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("ApiScope", policy =>
+    {
+        policy.RequireAuthenticatedUser();
+        policy.RequireClaim("scope", "geek_shopping");
+    });
+});
+
+#endregion 
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -50,9 +76,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+#region CONFIGURAÇÂO DO CURSO DE ASPNET
+
+app.UseHttpsRedirection();
+
+app.UseRouting();
+
+app.UseAuthentication();
+
+#endregion
+
 app.UseAuthorization();
-
-
 
 app.MapControllers();
 
