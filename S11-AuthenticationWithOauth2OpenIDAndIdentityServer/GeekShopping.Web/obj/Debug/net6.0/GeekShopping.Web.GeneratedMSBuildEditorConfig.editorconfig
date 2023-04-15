@@ -12,7 +12,7 @@ build_property.RootNamespace = GeekShopping.Web
 build_property.ProjectDir = R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.Web\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.Web
 build_property._RazorSourceGeneratorDebug = 
 
