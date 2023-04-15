@@ -28,5 +28,15 @@ namespace GeekShopping.Web.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public async Task<IActionResult> Login()
+        {
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            return SignOut("Cookies", "oidc");
+        }
     }
 }
