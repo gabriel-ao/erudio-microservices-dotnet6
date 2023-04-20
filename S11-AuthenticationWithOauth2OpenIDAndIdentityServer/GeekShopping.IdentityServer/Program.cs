@@ -41,10 +41,21 @@ builder.Services.AddIdentityServer(options =>
 
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 
+
 #endregion
 
 
 var app = builder.Build();
+
+
+#region SOLUÇÃO ALUNO 117 115 FINALIZANDO A IMPL.......
+
+var initializer = app.Services.CreateScope().ServiceProvider.GetService<IDbInitializer>();
+
+
+#endregion
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -72,7 +83,7 @@ app.UseAuthorization();
 
 #region CONFIGURAÇÂO DO CURSO DE ASPNET
 
-var initializer = app.Services.CreateScope().ServiceProvider.GetRequiredService<IDbInitializer>();
+//var initializer = app.Services.CreateScope().ServiceProvider.GetRequiredService<IDbInitializer>();
 
 initializer.Initialize();
 

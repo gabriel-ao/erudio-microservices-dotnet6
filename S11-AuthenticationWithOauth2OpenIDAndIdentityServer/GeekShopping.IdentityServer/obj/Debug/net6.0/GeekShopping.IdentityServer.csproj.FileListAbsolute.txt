@@ -1,5 +1,6 @@
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\appsettings.Development.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\appsettings.json
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-FF33A472E1A08173D5F2B09B9C260C9F.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\GeekShopping.IdentityServer.staticwebassets.runtime.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\GeekShopping.IdentityServer.exe
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\GeekShopping.IdentityServer.deps.json
@@ -372,4 +373,3 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOaut
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.pdb
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.genruntimeconfig.cache
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\obj\Debug\net6.0\ref\GeekShopping.IdentityServer.dll
-R:\documentos\github\PDI\erudio-microservices-dotnet6\S11-AuthenticationWithOauth2OpenIDAndIdentityServer\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-FF33A472E1A08173D5F2B09B9C260C9F.json
