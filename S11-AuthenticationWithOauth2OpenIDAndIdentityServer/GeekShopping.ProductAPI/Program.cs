@@ -15,7 +15,7 @@ builder.Services.AddControllers();
 
 #region CONFIGURAÇÂO DO CURSO DE ASPNET
 
-builder.Services.AddAuthentication("Bearer").AddJwtBearer(options =>
+builder.Services.AddAuthentication("Bearer").AddJwtBearer("Bearer", options =>
 {
     options.Authority = "https://localhost:4435";
     options.TokenValidationParameters = new TokenValidationParameters
