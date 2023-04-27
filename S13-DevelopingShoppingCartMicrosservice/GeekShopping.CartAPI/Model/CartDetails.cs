@@ -18,6 +18,6 @@ namespace GeekShopping.CartAPI.Model
         public Product Product { get; set; }
 
         [Column("count")]
-        public int count { get; set; }
+        public int Count { get; set; }
     }
 }
