@@ -26,7 +26,23 @@ namespace GeekShopping.CartAPI.Repository
 
         public async Task<bool> ClearCart(string userId)
         {
-            throw new NotImplementedException();
+            var cartHeader = await _context.CartHeaders
+                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+            if (cartHeader != null)
+            {
+                _context.CartDetails
+                    .RemoveRange(
+                    _context.CartDetails.Where(c => c.CartHeaderId == cartHeader.Id));
+
+                _context.CartHeaders.Remove(cartHeader);
+
+                await _context.SaveChangesAsync();
+
+                return true;
+            }
+
+            return false;
         }
 
         public async Task<CartVO> FindCartByUserId(string userId)
@@ -49,9 +65,37 @@ namespace GeekShopping.CartAPI.Repository
             throw new NotImplementedException();
         }
 
-        public async Task<bool> RemoveFromCart(long cartDetails)
+        public async Task<bool> RemoveFromCart(long cartDetailsId)
         {
-            throw new NotImplementedException();
+
+            try
+            {
+                CartDetail cartDetail = await _context.CartDetails
+                    .FirstOrDefaultAsync(c => c.Id == cartDetailsId);
+
+                int total = _context.CartDetails
+                    .Where(c => c.CartHeaderId == cartDetail.CartHeaderId)
+                    .Count();
+
+                _context.CartDetails.Remove(cartDetail);
+
+                if (total == 1)
+                {
+                    var cartHeaderToRemove = await _context.CartHeaders
+                        .FirstOrDefaultAsync(c => c.Id == cartDetail.CartHeaderId);
+
+                    _context.CartHeaders.Remove(cartHeaderToRemove);
+                }
+
+                await _context.SaveChangesAsync();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+
+                return false;
+            }
         }
 
         public async Task<CartVO> SaveOrUpdateCart(CartVO vo)
