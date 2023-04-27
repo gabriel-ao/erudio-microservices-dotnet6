@@ -84,7 +84,7 @@ builder.Services.AddDbContext<MySQLContext>(options => options.
             new MySqlServerVersion(
                 new Version(8, 0, 5))));  // confirmar qual versão do MYSQL
 
-// map para varrer dados
+// map para varrer dados - olhar na pasta dos VOs
 IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
 builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
