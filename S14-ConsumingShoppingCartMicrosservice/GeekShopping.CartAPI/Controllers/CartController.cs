@@ -19,14 +19,14 @@ namespace GeekShopping.CartAPI.Controllers
 
         [HttpGet("find-cart{id}")]
         //[Authorize]
-        public async Task<ActionResult<CartVO>> FindById(string UserId)
+        public async Task<ActionResult<CartVO>> FindById(string id)
         {
-            var cart = await _repository.FindCartByUserId(UserId);
+            var cart = await _repository.FindCartByUserId(id);
             if (cart == null) return NotFound();
             return Ok(cart);
         }
 
-        [HttpPost("add-cart{id}")]
+        [HttpPost("add-cart")]
         //[Authorize]
         public async Task<ActionResult<CartVO>> AddCart(CartVO vo)
         {
@@ -35,7 +35,7 @@ namespace GeekShopping.CartAPI.Controllers
             return Ok(cart);
         }
 
-        [HttpPut("update-cart{id}")]
+        [HttpPut("update-cart")]
         //[Authorize]
         public async Task<ActionResult<CartVO>> UpdateCart(CartVO vo)
         {
