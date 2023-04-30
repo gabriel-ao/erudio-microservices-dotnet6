@@ -751,6 +751,7 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S13-DevelopingShoppingCart
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S13-DevelopingShoppingCartMicrosservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-8F859823B94A41E6AC232BA9C42C087A.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S14-ConsumingShoppingCartMicrosservice\GeekShopping.IdentityServer\bin\Debug\net6.0\appsettings.Development.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S14-ConsumingShoppingCartMicrosservice\GeekShopping.IdentityServer\bin\Debug\net6.0\appsettings.json
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S14-ConsumingShoppingCartMicrosservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-030CBEFC129E3EA430045C251BED852C.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S14-ConsumingShoppingCartMicrosservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-8F859823B94A41E6AC232BA9C42C087A.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S14-ConsumingShoppingCartMicrosservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-FF33A472E1A08173D5F2B09B9C260C9F.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S14-ConsumingShoppingCartMicrosservice\GeekShopping.IdentityServer\bin\Debug\net6.0\GeekShopping.IdentityServer.staticwebassets.runtime.json
