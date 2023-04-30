@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = R:\documentos\github\PDI\erudio-microservices-dotnet6\S15-CreatingShoppingCartUI\GeekShopping.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[R:/documentos/github/PDI/erudio-microservices-dotnet6/S15-CreatingShoppingCartUI/GeekShopping.Web/Views/Cart/CartIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [R:/documentos/github/PDI/erudio-microservices-dotnet6/S15-CreatingShoppingCartUI/GeekShopping.Web/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
