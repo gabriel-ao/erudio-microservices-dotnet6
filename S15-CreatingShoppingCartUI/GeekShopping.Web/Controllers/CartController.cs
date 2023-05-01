@@ -1,6 +1,7 @@
 ﻿using GeekShopping.Web.Models;
 using GeekShopping.Web.Services.IServices;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GeekShopping.Web.Controllers
@@ -17,6 +18,8 @@ namespace GeekShopping.Web.Controllers
             _productService = productService;
             _cartService = cartService;
         }
+
+        [Authorize]
         public async Task<IActionResult> CartIndex()
         {
             return View(await FindUserCart());

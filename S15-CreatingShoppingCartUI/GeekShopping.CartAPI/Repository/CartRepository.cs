@@ -47,17 +47,25 @@ namespace GeekShopping.CartAPI.Repository
 
         public async Task<CartVO> FindCartByUserId(string userId)
         {
-            Cart cart = new()
-            {
-                CartHeader = await _context.CartHeaders.FirstOrDefaultAsync(
-                    c => c.UserId == userId)
-            };
 
+
+            Cart cart = new();
+
+            cart.CartHeader = await _context.CartHeaders.FirstOrDefaultAsync(
+                c => c.UserId == userId);
+
+            if(cart.CartHeader == null)
+            {
+                cart = new();
+                return _mapper.Map<CartVO>(cart);
+            }
             cart.CartDetails = _context.CartDetails
                 .Where(c => c.CartHeaderId == cart.CartHeader.Id)
                 .Include(c => c.Product);
 
-            return _mapper.Map<CartVO>(cart);
+            var response = _mapper.Map<CartVO>(cart);
+
+            return response;
         }
 
         public async Task<bool> RemoveCoupon(string userId)
@@ -119,9 +127,9 @@ namespace GeekShopping.CartAPI.Repository
 
             if (cartHeader == null)
             {
-                //Create CartHeader and CartDetails
-                _context.CartHeaders.Add(cart.CartHeader);
-                await _context.SaveChangesAsync();
+                //Create CartHeader and CartDetails // TODO - MINHA SOLUÇÃO PARA EVITAR DE DUPLICAR HEADER
+                //_context.CartHeaders.Add(cart.CartHeader); // TODO - MINHA SOLUÇÃO PARA EVITAR DE DUPLICAR HEADER
+                //await _context.SaveChangesAsync();  // TODO - MINHA SOLUÇÃO PARA EVITAR DE DUPLICAR HEADER
                 cart.CartDetails.FirstOrDefault().CartHeaderId = cart.CartHeader.Id;
                 cart.CartDetails.FirstOrDefault().Product = null;
                 _context.CartDetails.Add(cart.CartDetails.FirstOrDefault());
@@ -134,14 +142,18 @@ namespace GeekShopping.CartAPI.Repository
                 var cartDetail = await _context.CartDetails.AsNoTracking().FirstOrDefaultAsync(
                     p => p.ProductId == cart.CartDetails.FirstOrDefault().ProductId);
 
-                    //&& p.CartHeaderId == cartHeader.Id); // logica curso
+                //&& p.CartHeaderId == cartHeader.Id); // logica curso
 
                 if (cartDetail == null)
                 {
                     //Create CartDetails
-                    cart.CartDetails.FirstOrDefault().CartHeaderId = cartHeader.Id;
                     cart.CartDetails.FirstOrDefault().Product = null;
-                    _context.CartDetails.Add(cart.CartDetails.FirstOrDefault());
+                    cart.CartDetails.FirstOrDefault().CartHeaderId = cartHeader.Id;
+                    //_context.CartDetails.Add(cart.CartDetails.FirstOrDefault());
+
+                    cart.CartDetails.FirstOrDefault().CartHeader.Id = cartHeader.Id; // TODO - MINHA SOLUÇÃO PARA EVITAR DE DUPLICAR HEADER
+                    _context.CartDetails.Update(cart.CartDetails.FirstOrDefault()); // TODO - MINHA SOLUÇÃO PARA EVITAR DE DUPLICAR HEADER
+
                     await _context.SaveChangesAsync();
                 }
                 else
@@ -151,6 +163,9 @@ namespace GeekShopping.CartAPI.Repository
                     cart.CartDetails.FirstOrDefault().Count += cartDetail.Count;
                     cart.CartDetails.FirstOrDefault().Id = cartDetail.Id;
                     cart.CartDetails.FirstOrDefault().CartHeaderId = cartDetail.CartHeaderId;
+                    cart.CartDetails.FirstOrDefault().CartHeader.Id = cartDetail.CartHeaderId; // TODO - MINHA SOLUÇÃO PARA EVITAR DE DUPLICAR HEADER
+
+
                     _context.CartDetails.Update(cart.CartDetails.FirstOrDefault());
                     await _context.SaveChangesAsync();
                 }

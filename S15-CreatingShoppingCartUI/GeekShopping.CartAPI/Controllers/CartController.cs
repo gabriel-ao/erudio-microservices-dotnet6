@@ -17,7 +17,7 @@ namespace GeekShopping.CartAPI.Controllers
                 ArgumentNullException(nameof(repository));
         }
 
-        [HttpGet("find-cart{id}")]
+        [HttpGet("find-cart/{id}")]
         //[Authorize]
         public async Task<ActionResult<CartVO>> FindById(string id)
         {
@@ -44,7 +44,7 @@ namespace GeekShopping.CartAPI.Controllers
             return Ok(cart);
         }
 
-        [HttpDelete("remove-cart{id}")]
+        [HttpDelete("remove-cart/{id}")]
         //[Authorize]
         public async Task<ActionResult<CartVO>> RemoveCart(int id)
         {
