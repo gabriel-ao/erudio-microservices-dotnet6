@@ -19,7 +19,7 @@ namespace GeekShopping.CartAPI.Repository
             _mapper = mapper;
         }
 
-        public async Task<bool> ApplyCoupon(string userId, string counponCode)
+        public async Task<bool> ApplyCoupon(string userId, string couponCode)
         {
             throw new NotImplementedException();
         }
