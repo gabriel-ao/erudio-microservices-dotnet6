@@ -1508,6 +1508,7 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S16-CreatingGeekShopping.C
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S16-CreatingGeekShopping.CouponAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\appsettings.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S16-CreatingGeekShopping.CouponAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-030CBEFC129E3EA430045C251BED852C.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S16-CreatingGeekShopping.CouponAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-659E245010B534F87CC96557BCDD47A9.json
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S16-CreatingGeekShopping.CouponAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-84F69D9F6CC9F1D22053C9822AAEFDCC.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S16-CreatingGeekShopping.CouponAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-8F859823B94A41E6AC232BA9C42C087A.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S16-CreatingGeekShopping.CouponAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-FF33A472E1A08173D5F2B09B9C260C9F.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S16-CreatingGeekShopping.CouponAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\GeekShopping.IdentityServer.staticwebassets.runtime.json
@@ -1882,4 +1883,3 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S16-CreatingGeekShopping.C
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S16-CreatingGeekShopping.CouponAPIMicroservice\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.pdb
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S16-CreatingGeekShopping.CouponAPIMicroservice\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.genruntimeconfig.cache
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S16-CreatingGeekShopping.CouponAPIMicroservice\GeekShopping.IdentityServer\obj\Debug\net6.0\ref\GeekShopping.IdentityServer.dll
-R:\documentos\github\PDI\erudio-microservices-dotnet6\S16-CreatingGeekShopping.CouponAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-84F69D9F6CC9F1D22053C9822AAEFDCC.json
