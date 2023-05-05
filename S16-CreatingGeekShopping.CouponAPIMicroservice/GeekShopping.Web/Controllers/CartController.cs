@@ -10,13 +10,16 @@ namespace GeekShopping.Web.Controllers
     {
         private readonly IProductService _productService;
         private readonly ICartService _cartService;
+        private readonly ICouponService _CouponService;
 
         public CartController(
             IProductService productService,
-            ICartService cartService)
+            ICartService cartService,
+            ICouponService couponService)
         {
             _productService = productService;
             _cartService = cartService;
+            _CouponService = couponService;
         }
 
         [Authorize]
@@ -67,12 +70,18 @@ namespace GeekShopping.Web.Controllers
 
             var response = await _cartService.RemoveFromCart(id, token);
 
-            if(response)
+            if (response)
             {
                 return RedirectToAction(nameof(CartIndex));
             }
 
             return View();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Checkout()
+        {
+            return View(await FindUserCart());
         }
 
         private async Task<CartViewModel> FindUserCart()
@@ -85,10 +94,23 @@ namespace GeekShopping.Web.Controllers
 
             if (response?.CartHeader != null)
             {
+                if (!string.IsNullOrEmpty(response.CartHeader.CouponCode))
+                {
+                    // verificando o cupom
+                    var coupon = await _CouponService.GetCoupon(response.CartHeader.CouponCode, token);
+                    if (coupon?.CouponCode != null)
+                    {
+                        // busca o cupom
+                        response.CartHeader.DiscountAmount = coupon.DiscountAmount;
+                    }
+                }
                 foreach (var detail in response.CartDetails)
                 {
                     response.CartHeader.PurchaseAmount += (detail.Product.Price * detail.Count);
                 }
+
+                // decrementa o valor
+                response.CartHeader.PurchaseAmount -= response.CartHeader.DiscountAmount;
 
             }
 

@@ -20,9 +20,10 @@ namespace GeekShopping.CouponAPI.Controllers
 
 
         [HttpGet("{couponCode}")]
-        [Authorize]
+        //[Authorize]
         public async Task<ActionResult<CouponVO>> GetCouponByCouponCode(string couponCode)
         {
+            // todo - entender o pq de o authorize nao estar funcionando
             var coupon = await _repository.GetCouponByCouponCode(couponCode);
             if (coupon.Id <= 0) return NotFound();
             return Ok(coupon);

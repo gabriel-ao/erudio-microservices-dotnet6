@@ -18,7 +18,6 @@ namespace GeekShopping.CartAPI.Controllers
         }
 
         [HttpGet("find-cart/{id}")]
-        //[Authorize]
         public async Task<ActionResult<CartVO>> FindById(string id)
         {
             var cart = await _repository.FindCartByUserId(id);
@@ -27,7 +26,6 @@ namespace GeekShopping.CartAPI.Controllers
         }
 
         [HttpPost("add-cart")]
-        //[Authorize]
         public async Task<ActionResult<CartVO>> AddCart(CartVO vo)
         {
             var cart = await _repository.SaveOrUpdateCart(vo);
@@ -36,7 +34,6 @@ namespace GeekShopping.CartAPI.Controllers
         }
 
         [HttpPut("update-cart")]
-        //[Authorize]
         public async Task<ActionResult<CartVO>> UpdateCart(CartVO vo)
         {
             var cart = await _repository.SaveOrUpdateCart(vo);
@@ -45,7 +42,6 @@ namespace GeekShopping.CartAPI.Controllers
         }
 
         [HttpDelete("remove-cart/{id}")]
-        //[Authorize]
         public async Task<ActionResult<CartVO>> RemoveCart(int id)
         {
             var status = await _repository.RemoveFromCart(id);
@@ -54,7 +50,6 @@ namespace GeekShopping.CartAPI.Controllers
         }
 
         [HttpPost("apply-coupon")]
-        //[Authorize]
         public async Task<ActionResult<CartVO>> ApplyCoupon(CartVO vo)
         {
             var status = await _repository.ApplyCoupon(vo.CartHeader.UserId, vo.CartHeader.CouponCode);
@@ -64,7 +59,6 @@ namespace GeekShopping.CartAPI.Controllers
         }
 
         [HttpDelete("remove-coupon/{userId}")]
-        //[Authorize]
         public async Task<ActionResult<CartVO>> RemoveCoupon(string userId)
         {
             var status = await _repository.RemoveCoupon(userId);
