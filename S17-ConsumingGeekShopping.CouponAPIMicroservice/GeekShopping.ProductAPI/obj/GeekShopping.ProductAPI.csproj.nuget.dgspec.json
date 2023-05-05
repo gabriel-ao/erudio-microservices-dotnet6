@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S16-CreatingGeekShopping.CouponAPIMicroservice\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj": {}
+    "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S17-ConsumingGeekShopping.CouponAPIMicroservice\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj": {}
   },
   "projects": {
-    "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S16-CreatingGeekShopping.CouponAPIMicroservice\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj": {
+    "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S17-ConsumingGeekShopping.CouponAPIMicroservice\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S16-CreatingGeekShopping.CouponAPIMicroservice\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
+        "projectUniqueName": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S17-ConsumingGeekShopping.CouponAPIMicroservice\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
         "projectName": "GeekShopping.ProductAPI",
-        "projectPath": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S16-CreatingGeekShopping.CouponAPIMicroservice\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
+        "projectPath": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S17-ConsumingGeekShopping.CouponAPIMicroservice\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S16-CreatingGeekShopping.CouponAPIMicroservice\\GeekShopping.ProductAPI\\obj\\",
+        "outputPath": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S17-ConsumingGeekShopping.CouponAPIMicroservice\\GeekShopping.ProductAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3LwJRL69CQTx5QUSLN1BjhaEAe1Vf8F1UCB1I7QxVjg/gHqAwGcSAue0XLDIJaEpjAqXw+BauOPBT2S3uRP+ag==",
+  "dgSpecHash": "MwjKQxu1H6XzPbKNKXDju4flZeQ2SARYb4RjHkX0PV96xooouqqtmsPOQwnVpQggC+htYASAqw1is9BjCsqqQg==",
   "success": true,
-  "projectFilePath": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S16-CreatingGeekShopping.CouponAPIMicroservice\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+  "projectFilePath": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S17-ConsumingGeekShopping.CouponAPIMicroservice\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\duende.identityserver\\6.2.3\\duende.identityserver.6.2.3.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\duende.identityserver.aspnetidentity\\6.2.3\\duende.identityserver.aspnetidentity.6.2.3.nupkg.sha512",

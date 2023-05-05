@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o7r8usyUjc66Jphvm6b/atymNrJpmdkWPhP9gm3i+gBGjurYP6mEbqM6JQyAM7VmdENLifuolf2tC1hnL37Mhg==",
+  "dgSpecHash": "V5VGW2Y7Q15gm88d0puNI8rd9R3+DgPAv4Kb9E+nETOuBQ22ndg4QCf5lXEH0sUzw9eSjYTE0ZqlkO5qH5f/fQ==",
   "success": true,
-  "projectFilePath": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S16-CreatingGeekShopping.CouponAPIMicroservice\\GeekShopping.CouponAPI\\GeekShopping.CouponAPI.csproj",
+  "projectFilePath": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S17-ConsumingGeekShopping.CouponAPIMicroservice\\GeekShopping.CouponAPI\\GeekShopping.CouponAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E8OaNPev9RCd5HzjITyPJft0xLnkrFbrw/Mer3Wl+ZGNf2RlWUxa2qnNF1Cptyvq1cOLZ5jNeaoSZYvn0sC5UQ==",
+  "dgSpecHash": "lxF6aHyqG90ljk+KUB26NFfszGw5kmjwgtGKUap1fFiNCg6saOhe6t7RE8VfTcCOUY18jQInULsELN2m54Vrew==",
   "success": true,
-  "projectFilePath": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S16-CreatingGeekShopping.CouponAPIMicroservice\\GeekShopping.Web\\GeekShopping.Web.csproj",
+  "projectFilePath": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S17-ConsumingGeekShopping.CouponAPIMicroservice\\GeekShopping.Web\\GeekShopping.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
