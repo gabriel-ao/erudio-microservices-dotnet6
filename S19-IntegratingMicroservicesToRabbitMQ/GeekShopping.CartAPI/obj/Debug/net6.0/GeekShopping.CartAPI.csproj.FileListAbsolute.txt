@@ -382,3 +382,7 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservic
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.CartAPI\obj\Debug\net6.0\GeekShopping.CartAPI.pdb
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.CartAPI\obj\Debug\net6.0\GeekShopping.CartAPI.genruntimeconfig.cache
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.CartAPI\obj\Debug\net6.0\ref\GeekShopping.CartAPI.dll
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.CartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.CartAPI\bin\Debug\net6.0\System.Threading.Channels.dll
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.dll
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.pdb

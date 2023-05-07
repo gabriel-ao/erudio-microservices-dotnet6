@@ -29,4 +29,11 @@ WHERE id != 1;
 Rabbit MQ Anotações
 
 
-docker run -d --hostname my-rabbit --name some-rabbit -p 8080:15672 rabbitmq:3-management
+#Imagem docker com um gerenciador
+
+docker run -d --hostname my-rabbit --name some-rabbit -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+
+#url local para acesso
+
+http://127.0.0.1:15672/
+

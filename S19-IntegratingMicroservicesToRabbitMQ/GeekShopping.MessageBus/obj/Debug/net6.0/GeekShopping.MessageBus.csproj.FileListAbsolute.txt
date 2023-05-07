@@ -1,0 +1,12 @@
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.MessageBus\bin\Debug\net6.0\GeekShopping.MessageBus.deps.json
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.MessageBus\bin\Debug\net6.0\GeekShopping.MessageBus.dll
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.MessageBus\bin\Debug\net6.0\GeekShopping.MessageBus.pdb
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.csproj.AssemblyReference.cache
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.AssemblyInfoInputs.cache
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.AssemblyInfo.cs
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.csproj.CoreCompileInputs.cache
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.dll
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.MessageBus\obj\Debug\net6.0\refint\GeekShopping.MessageBus.dll
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.pdb
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S19-IntegratingMicroservicesToRabbitMQ\GeekShopping.MessageBus\obj\Debug\net6.0\ref\GeekShopping.MessageBus.dll
