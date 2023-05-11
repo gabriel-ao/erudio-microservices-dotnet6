@@ -6,18 +6,21 @@ namespace GeekShopping.OrderAPI.Model
     [Table("order_details")]
     public class OrderDetail : BaseEntity
     {
-        public long CartHeaderId { get; set; }
+        public long OrderHeaderId { get; set; }
 
+        [ForeignKey("OrderHeaderId")]
+        public virtual OrderHeader OrderHeader { get; set; }
 
-        [ForeignKey("CartHeaderId")]
-        public virtual CartHeader CartHeader { get; set; }
+        [Column("ProductId")]
         public long ProductId { get; set; }
-
-
-        [ForeignKey("ProductId")]
-        public virtual Product Product { get; set; }
 
         [Column("count")]
         public int Count { get; set; }
+
+        [Column("product_name")]
+        public string ProductName { get; set; }
+
+        [Column("price")]
+        public decimal Price { get; set; }
     }
 }

@@ -3025,3 +3025,4 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S20-IntegratingMicroservic
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S20-IntegratingMicroservicesToRabbitMQ\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.pdb
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S20-IntegratingMicroservicesToRabbitMQ\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.genruntimeconfig.cache
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S20-IntegratingMicroservicesToRabbitMQ\GeekShopping.IdentityServer\obj\Debug\net6.0\ref\GeekShopping.IdentityServer.dll
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S20-IntegratingMicroservicesToRabbitMQ\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-2EF575EA8F8C9C74DFC6553FD33353BF.json

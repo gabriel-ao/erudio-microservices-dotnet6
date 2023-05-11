@@ -1,3 +1,6 @@
+using GeekShopping.OrderAPI.Model.Context;
+using GeekShopping.OrderAPI.Repository;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
@@ -66,6 +69,34 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 });
+
+
+
+// conexão ao banco de dados
+ConfigurationManager configuration = builder.Configuration;
+
+var connection = configuration["MySQLConnection:MySQLConnectionString"];
+
+builder.Services.AddDbContext<MySQLContext>(options => options.
+        UseMySql(connection,
+            new MySqlServerVersion(
+                new Version(8, 0, 5))));  // confirmar qual versão do MYSQL
+
+var dbContextBuilder = new DbContextOptionsBuilder<MySQLContext>();
+dbContextBuilder.UseMySql(connection,
+            new MySqlServerVersion(
+                new Version(8, 0, 5)));
+
+// NÃO UTILIZADO NESSE PROJETO
+//IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+//builder.Services.AddSingleton(mapper);
+//builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+
+// injeção de dependencias
+//builder.Services.AddScoped<IOrderB, CartRepository>();
+
+builder.Services.AddSingleton(new OrderRepository(dbContextBuilder.Options));
 
 #endregion
 
