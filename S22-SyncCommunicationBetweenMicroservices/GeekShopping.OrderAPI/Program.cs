@@ -1,5 +1,6 @@
 using GeekShopping.OrderAPI.MessageConsumer;
 using GeekShopping.OrderAPI.Model.Context;
+using GeekShopping.OrderAPI.RabbitMQSender;
 using GeekShopping.OrderAPI.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -98,6 +99,8 @@ dbContextBuilder.UseMySql(connection,
 builder.Services.AddSingleton(new OrderRepository(dbContextBuilder.Options));
 
 builder.Services.AddHostedService<RabbitMQCheckoutConsumer>();
+
+builder.Services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
 
 #endregion
 
