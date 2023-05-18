@@ -715,6 +715,16 @@
         "runtime": {
           "bin/placeholder/GeekShopping.MessageBus.dll": {}
         }
+      },
+      "GeekShopping.PaymentProcessor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GeekShopping.PaymentProcessor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeekShopping.PaymentProcessor.dll": {}
+        }
       }
     }
   },
@@ -2057,11 +2067,17 @@
       "type": "project",
       "path": "../GeekShopping.MessageBus/GeekShopping.MessageBus.csproj",
       "msbuildProject": "../GeekShopping.MessageBus/GeekShopping.MessageBus.csproj"
+    },
+    "GeekShopping.PaymentProcessor/1.0.0": {
+      "type": "project",
+      "path": "../GeekShopping.PaymentProcessor/GeekShopping.PaymentProcessor.csproj",
+      "msbuildProject": "../GeekShopping.PaymentProcessor/GeekShopping.PaymentProcessor.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "GeekShopping.MessageBus >= 1.0.0",
+      "GeekShopping.PaymentProcessor >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.15",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.4",
@@ -2107,6 +2123,9 @@
           "projectReferences": {
             "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S22-SyncCommunicationBetweenMicroservices\\GeekShopping.MessageBus\\GeekShopping.MessageBus.csproj": {
               "projectPath": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S22-SyncCommunicationBetweenMicroservices\\GeekShopping.MessageBus\\GeekShopping.MessageBus.csproj"
+            },
+            "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S22-SyncCommunicationBetweenMicroservices\\GeekShopping.PaymentProcessor\\GeekShopping.PaymentProcessor.csproj": {
+              "projectPath": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S22-SyncCommunicationBetweenMicroservices\\GeekShopping.PaymentProcessor\\GeekShopping.PaymentProcessor.csproj"
             }
           }
         }

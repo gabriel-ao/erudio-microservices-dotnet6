@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pk4XYeNrzC5usjyZCP7YBMMbui6+f0CKAl6aPGiw2R0s2msRnh9psY3e3XuQQFHdDo2oZSqk4AHWqCDVgoUOBA==",
+  "dgSpecHash": "4JmRsR3n/HLbA21/4e+S92L9oEBOSvD+FikOj+USK3giDdh8Nxh27a0GKbF+CWV766Vz7E3eqG3wMBpw/CS/iQ==",
   "success": true,
   "projectFilePath": "R:\\documentos\\github\\PDI\\erudio-microservices-dotnet6\\S22-SyncCommunicationBetweenMicroservices\\GeekShopping.PaymentAPI\\GeekShopping.PaymentAPI.csproj",
   "expectedPackageFiles": [

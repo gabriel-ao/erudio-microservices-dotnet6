@@ -9,6 +9,7 @@
       "GeekShopping.PaymentAPI/1.0.0": {
         "dependencies": {
           "GeekShopping.MessageBus": "1.0.0",
+          "GeekShopping.PaymentProcessor": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.15",
           "Microsoft.EntityFrameworkCore.Design": "7.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.4",
@@ -433,6 +434,11 @@
         "runtime": {
           "GeekShopping.MessageBus.dll": {}
         }
+      },
+      "GeekShopping.PaymentProcessor/1.0.0": {
+        "runtime": {
+          "GeekShopping.PaymentProcessor.dll": {}
+        }
       }
     }
   },
@@ -744,6 +750,11 @@
       "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
     },
     "GeekShopping.MessageBus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeekShopping.PaymentProcessor/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

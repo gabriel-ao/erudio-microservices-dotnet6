@@ -42,7 +42,9 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetwe
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetweenMicroservices\GeekShopping.PaymentAPI\bin\Debug\net6.0\System.Threading.Channels.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetweenMicroservices\GeekShopping.PaymentAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetweenMicroservices\GeekShopping.PaymentAPI\bin\Debug\net6.0\GeekShopping.MessageBus.dll
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetweenMicroservices\GeekShopping.PaymentAPI\bin\Debug\net6.0\GeekShopping.PaymentProcessor.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetweenMicroservices\GeekShopping.PaymentAPI\bin\Debug\net6.0\GeekShopping.MessageBus.pdb
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetweenMicroservices\GeekShopping.PaymentAPI\bin\Debug\net6.0\GeekShopping.PaymentProcessor.pdb
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetweenMicroservices\GeekShopping.PaymentAPI\obj\Debug\net6.0\GeekShopping.PaymentAPI.csproj.AssemblyReference.cache
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetweenMicroservices\GeekShopping.PaymentAPI\obj\Debug\net6.0\GeekShopping.PaymentAPI.GeneratedMSBuildEditorConfig.editorconfig
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetweenMicroservices\GeekShopping.PaymentAPI\obj\Debug\net6.0\GeekShopping.PaymentAPI.AssemblyInfoInputs.cache
