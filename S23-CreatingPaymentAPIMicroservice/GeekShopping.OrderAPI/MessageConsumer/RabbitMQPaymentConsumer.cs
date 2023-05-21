@@ -9,7 +9,7 @@ using System.Text.Json;
 
 namespace GeekShopping.OrderAPI.MessageConsumer
 {
-    public class RabbitMQCheckoutConsumer : BackgroundService
+    public class RabbitMQPaymentConsumer : BackgroundService
     {
         private readonly OrderRepository _repository;
         private IConnection _connection;
@@ -18,11 +18,9 @@ namespace GeekShopping.OrderAPI.MessageConsumer
         private const string ExchangeName = "FanoutPaymentUpdateExchange";
         string queueName = "";
 
-        public RabbitMQCheckoutConsumer(OrderRepository repository,
-            IRabbitMQMessageSender rabbitMQMessageSender)
+        public RabbitMQPaymentConsumer(OrderRepository repository)
         {
             _repository = repository;
-            _rabbitMQMessageSender = rabbitMQMessageSender;
             var factory = new ConnectionFactory
             {
                 HostName = "localhost",
@@ -47,63 +45,20 @@ namespace GeekShopping.OrderAPI.MessageConsumer
             consumer.Received += (chanel, evt) =>
             {
                 var content = Encoding.UTF8.GetString(evt.Body.ToArray());
-                CheckoutHeaderVO vo = JsonSerializer.Deserialize<CheckoutHeaderVO>(content);
-                ProcessOrder(vo).GetAwaiter().GetResult();
+                UpdatePaymentResultVO vo = JsonSerializer.Deserialize<UpdatePaymentResultVO>(content);
+                UpdatePaymentStatus(vo).GetAwaiter().GetResult();
                 _channel.BasicAck(evt.DeliveryTag, false);
             };
             _channel.BasicConsume(queueName, false, consumer);
             return Task.CompletedTask;
         }
 
-        private async Task ProcessOrder(CheckoutHeaderVO vo)
+
+        private async Task UpdatePaymentStatus(UpdatePaymentResultVO vo)
         {
-            OrderHeader order = new()
-            {
-                UserId = vo.UserId,
-                FirstName = vo.FirstName,
-                LastName = vo.LastName,
-                OrderDetails = new List<OrderDetail>(),
-                CardNumber = vo.CardNumber,
-                CouponCode = vo.CouponCode,
-                CVV = vo.CVV,
-                DiscountAmount = vo.DiscountAmount,
-                Email = vo.Email,
-                ExpiryMonthYear = vo.ExpiryMonthYear,
-                OrderTime = DateTime.Now,
-                PurchaseAmount = vo.PurchaseAmount,
-                PaymentStatus = false,
-                Phone = vo.Phone,
-                DateTime = vo.DateTime
-            };
-
-            foreach (var details in vo.CartDetails)
-            {
-                OrderDetail detail = new()
-                {
-                    ProductId = details.ProductId,
-                    ProductName = details.Product.Name,
-                    Price = details.Product.Price,
-                    Count = details.count,
-                };
-                order.CartTotalItens += details.count;
-                order.OrderDetails.Add(detail);
-            }
-
-            await _repository.AddOrder(order);
-
-            PaymentVO payment = new()
-            {
-                Name = order.FirstName + " " + order.LastName,
-                CardNumber = order.CardNumber,
-                CVV = order.CVV,
-                ExpiryMonthYear = order.ExpiryMonthYear,
-                OrderId = order.Id,
-                PurchaseAmount = order.PurchaseAmount,
-                Email = order.Email
-            };
             try
             {
-                _rabbitMQMessageSender.SendMessage(payment, "orderpaymentprocessqueue");
+                await _repository.UpdateOrderPaymentStatus(vo.OrderId, vo.Status);
             }
             catch (Exception)
             {
@@ -111,5 +66,6 @@ namespace GeekShopping.OrderAPI.MessageConsumer
                 throw;
             }
         }
+
     }
 }

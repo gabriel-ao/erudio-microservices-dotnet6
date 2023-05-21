@@ -196,6 +196,13 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetwe
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetweenMicroservices\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.pdb
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetweenMicroservices\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.genruntimeconfig.cache
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S22-SyncCommunicationBetweenMicroservices\GeekShopping.OrderAPI\obj\Debug\net6.0\ref\GeekShopping.OrderAPI.dll
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.csproj.AssemblyReference.cache
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.GeneratedMSBuildEditorConfig.editorconfig
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.AssemblyInfoInputs.cache
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.AssemblyInfo.cs
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.csproj.CoreCompileInputs.cache
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.MvcApplicationPartsAssemblyInfo.cs
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.MvcApplicationPartsAssemblyInfo.cache
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\bin\Debug\net6.0\appsettings.Development.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\bin\Debug\net6.0\appsettings.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\bin\Debug\net6.0\GeekShopping.OrderAPI.exe
@@ -241,13 +248,6 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicr
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\bin\Debug\net6.0\GeekShopping.MessageBus.dll
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\bin\Debug\net6.0\GeekShopping.MessageBus.pdb
-R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.csproj.AssemblyReference.cache
-R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.GeneratedMSBuildEditorConfig.editorconfig
-R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.AssemblyInfoInputs.cache
-R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.AssemblyInfo.cs
-R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.csproj.CoreCompileInputs.cache
-R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.MvcApplicationPartsAssemblyInfo.cs
-R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\GeekShopping.OrderAPI.MvcApplicationPartsAssemblyInfo.cache
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\staticwebassets\msbuild.GeekShopping.OrderAPI.Microsoft.AspNetCore.StaticWebAssets.props
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.GeekShopping.OrderAPI.props
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.OrderAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GeekShopping.OrderAPI.props

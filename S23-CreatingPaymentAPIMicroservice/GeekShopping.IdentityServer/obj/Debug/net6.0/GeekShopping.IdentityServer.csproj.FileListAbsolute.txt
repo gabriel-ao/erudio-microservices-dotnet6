@@ -3801,6 +3801,7 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicr
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-741E3B4CA6F2DB9D946FD533BA4A970F.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-84F69D9F6CC9F1D22053C9822AAEFDCC.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-8F859823B94A41E6AC232BA9C42C087A.json
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-9C519842EAAB50FA9ABBF56124AC31AA.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-A0E5D0FC5DD2CD5AAAD4601CB65B9A64.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-DCFD45FBE77E99519EBACCEE0329B0EF.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-EFD5BD87347172F432CC0B55F18C1335.json
@@ -4177,4 +4178,3 @@ R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicr
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.pdb
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.genruntimeconfig.cache
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.IdentityServer\obj\Debug\net6.0\ref\GeekShopping.IdentityServer.dll
-R:\documentos\github\PDI\erudio-microservices-dotnet6\S23-CreatingPaymentAPIMicroservice\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-9C519842EAAB50FA9ABBF56124AC31AA.json
