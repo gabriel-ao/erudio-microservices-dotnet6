@@ -28,7 +28,7 @@ namespace GeekShopping.Web.Services
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var response = await _client.PostAsJson($"{BasePath}/add-cart/", model);
+            var response = await _client.PostAsJson($"{BasePath}/add-cart", model);
 
             if (response.IsSuccessStatusCode)
                 return await response.ReadContentsAs<CartViewModel>();
@@ -40,7 +40,7 @@ namespace GeekShopping.Web.Services
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var response = await _client.PutAsJson($"{BasePath}/update-cart/", model);
+            var response = await _client.PutAsJson($"{BasePath}/update-cart", model);
 
             if (response.IsSuccessStatusCode)
                 return await response.ReadContentsAs<CartViewModel>();

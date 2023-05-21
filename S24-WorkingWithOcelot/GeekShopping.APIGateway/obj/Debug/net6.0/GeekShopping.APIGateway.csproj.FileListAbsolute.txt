@@ -1,6 +1,6 @@
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S24-WorkingWithOcelot\GeekShopping.APIGateway\bin\Debug\net6.0\appsettings.Development.json
-R:\documentos\github\PDI\erudio-microservices-dotnet6\S24-WorkingWithOcelot\GeekShopping.APIGateway\bin\Debug\net6.0\appsettings.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S24-WorkingWithOcelot\GeekShopping.APIGateway\bin\Debug\net6.0\GeekShopping.APIGateway.exe
+R:\documentos\github\PDI\erudio-microservices-dotnet6\S24-WorkingWithOcelot\GeekShopping.APIGateway\bin\Debug\net6.0\appsettings.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S24-WorkingWithOcelot\GeekShopping.APIGateway\bin\Debug\net6.0\GeekShopping.APIGateway.deps.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S24-WorkingWithOcelot\GeekShopping.APIGateway\bin\Debug\net6.0\GeekShopping.APIGateway.runtimeconfig.json
 R:\documentos\github\PDI\erudio-microservices-dotnet6\S24-WorkingWithOcelot\GeekShopping.APIGateway\bin\Debug\net6.0\GeekShopping.APIGateway.dll
